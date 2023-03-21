@@ -6,13 +6,44 @@ font-size: 150%;
 }
 
 body{
-text-align: center;
+
+    text-align: center;
 background-color: #57AB5E;
-   
+color:#0808ad
+
 }
+
+#Hero img{
+
+border: 10px solid white;
+background-image: url(/img/logo-96X96.svg);
+
+}
+
 h1, h2, h3, h4, h5, h6
 {font-family: "Asul";
 
 font-size: 150%;
 
 }
+#Hobbies ul{
+
+    width: 30px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+max-width: 100%;
+}
+
+#Lit p::first-letter {
+
+color: rgb(255, 0, 0);
+font-size: 325%;
+
+}
+
+/*
+* {
+    border:1px solid black;
+}
+*/
