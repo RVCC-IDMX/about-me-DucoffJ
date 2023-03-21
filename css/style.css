@@ -5,18 +5,18 @@ color: #0808ad;
 font-size: 150%;
 }
 
-body{
+  body{
 
     text-align: center;
 background-color: #57AB5E;
 color:#0808ad
 
-}
+} 
 
 #Hero img{
 
-border: 10px solid white;
-background-image: url(/img/logo-96X96.svg);
+    border: 10px solid white;
+    background-image: url(/img/logo-96X96.svg);
 
 }
 
@@ -39,11 +39,37 @@ max-width: 100%;
 
 color: rgb(255, 0, 0);
 font-size: 325%;
-
+margin-left: auto;
+margin-right: auto;
 }
+#Music{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*
 * {
     border:1px solid black;
 }
 */
+@media screen and (min-width:768px) {
+    
+#Lit div {
+
+max-width: 100%;
+columns: 30rem;
+}
+
+
+
+
+
+}
+
+blockquote{
+    font-size: 1rem;
+    line-height: 150%;
+    color: gray;
+
+}
