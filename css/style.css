@@ -73,3 +73,32 @@ blockquote{
     color: gray;
 
 }
+/*Contact form*/
+#contact{
+max-width: 400px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 75px;
+
+}
+#contact fieldset{
+border: 2px solid aliceblue;
+padding: 1rem;
+border-radius: 1em;
+
+}
+#contact legend{
+    background-color: aliceblue;
+    color:blue;
+}
+#contact label{margin: 1ex;}
+
+#contact fieldset{
+    display: grid;
+}
+#contact fieldset fieldset{
+    grid-template-columns: 30px auto;
+padding: 95px;
+    
+}
+#sumbit{}
